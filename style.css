@@ -14,7 +14,7 @@ main{
 h1{
     color: black;
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: fantasy;
 }
 
 nav{
@@ -43,7 +43,8 @@ figure{
 
 h2{
     color:black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: fantasy;
+    text-align: center;
 }
 
 p{
