@@ -57,7 +57,9 @@ h2{
 ul{
     font-family: 'Times New Roman', Times, serif;
 }
-ul>favorito{
+
+#favorito{
+    list-style-type: none;
     list-style-image: url('Imágenes/icons8-heart-20.png');
 }
 
