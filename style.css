@@ -41,6 +41,13 @@ figure{
     text-align: center;
 }
 
+figure :hover{
+    width: 105%;
+    height: 105%;
+    border-style: dotted;
+    border-color: rgb(88, 216, 255);
+}
+
 h2{
     color:black;
     font-family: fantasy;
