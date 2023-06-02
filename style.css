@@ -2,7 +2,7 @@
     background-color:whitesmoke;   
     margin: 10px;
     padding: 5px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 main{
@@ -24,13 +24,14 @@ nav{
 }
 
 nav > a{
-    color: black;
+    color: rgb(8, 13, 143);
+    font-size: smaller;
     text-decoration: none;
     margin: 0 20px;
 }
 
 nav >a:hover{
-    color: ;
+    color: rgb(136, 92, 255);
     border: ;
     border-radius: ;
     padding: ;
@@ -57,6 +58,7 @@ table{
     margin: 20px auto;
     background-color: rgba(83, 83, 189, 0.755);
     font-family: 'Times New Roman', Times, serif;
+    font-size: small;
     text-align: center;
     font-weight: lighter;
 }
@@ -94,37 +96,3 @@ footer{
     padding: 20px 15%;
     background-color: aliceblue;
 }
-
-
-
-
-
-
-
-
-
-.texto-fotos{
-    display: inline-block;
-    text-align: right;
-    width: 40%;
-    
-}  
-.fotos{
-    text-align: right;
-    width: 40%;
-}
-.estudiantes{
-    height: 100px;
-    max-width: 100%;  
-}
-
-.enlaces-recursos{
-    text-align: right;
-}
-
-.enlaces-recursos > a > img{
-    width: 100px;
-    border-radius: 5px;
-    margin: 10px;
-}
-
