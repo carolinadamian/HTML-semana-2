@@ -54,6 +54,13 @@ h2{
     text-align: center;
 }
 
+ul{
+    font-family: 'Times New Roman', Times, serif;
+}
+ul>favorito{
+    list-style-image: url('Imágenes/icons8-heart-20.png');
+}
+
 p{
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -77,9 +84,7 @@ th, td{
     font-family: 'Times New Roman', Times, serif;
 }
 
-ul{
-    font-family: 'Times New Roman', Times, serif;
-}
+
 
 label{
     font-family: 'Times New Roman', Times, serif;
