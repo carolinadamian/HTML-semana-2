@@ -1,0 +1,61 @@
+<form id="cys" action="suscripción" method="post">
+    <fieldset>
+        <legend class="texto"><b>Contacto y Suscripción</b></legend>
+        <p class="texto">
+            Nombre
+            <input type="text" size="40" name="nombre" id="nombre" required>
+        </p>
+        <p class="texto">
+            Apellido paterno
+            <input type="text" name="apellidop" id="apellidop" required>
+        </p>
+        <p class="texto">
+            Apellido materno
+            <input type="text" name="apellidom" id="apellidom" required>
+        </p>
+        <p class="texto">
+            Edad
+            <input type="number" min="0" max="120">
+        </p>
+        <p class="texto">
+            Correo electrónico
+            <input type="email" placeholder="info@ejemplo.com" required>
+        </p>
+        <p class="texto">
+            Teléfono
+            <input type="tel">
+        </p>
+        <p class="texto">
+            ¿Te dedicas a la filosofía de forma profesional?
+            <br>
+            <input type="radio" name="respuesta" required> Sí
+            <input type="radio" name="respuesta"> De forma amateur
+            <input type="radio" name="respuesta"> No, aunque me interesa
+            <input type="radio" name="respuesta"> No
+        </p>
+        <label>
+            ¿Deseas agendar una cita personalizada para consultoría en temas filosóficos?
+            <br> Sugiere una fecha y una hora. Me comunicaré de vuelta contigo para agendar la cita final.
+        </label>
+    
+        <p class="texto">
+            <input type="datetime-local">
+        </p>
+        <p class="texto">
+            Comentarios
+            <textarea name="" id="" cols="30" rows="2" placeholder="Escribe aquí"></textarea>
+        </p>
+        <p class="texto">
+            ¿Deseas suscribirte al newsletter?
+            <select name="" id="">
+                <option value="" selected>Sí</option>
+                <option value="">No</option>
+            </select>
+        </p>
+        <label>¡Gracias!</label>
+        <!-- <input type=""> -->
+    </fieldset>
+    <br>
+    <input type="submit">
+    <input type="reset" value="Borrar">
+</form>

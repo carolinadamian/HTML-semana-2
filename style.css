@@ -1,0 +1,130 @@
+*{
+    background-color:whitesmoke;   
+    margin: 10px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    padding: 20px 15%;
+    background-color: black;
+    color: aliceblue;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+nav{
+    text-align: center;
+    color: black;
+    padding-bottom: 10px;
+}
+
+nav > a{
+    color: black;
+    text-decoration: none;
+    margin: 0 20px;
+}
+
+nav >a:hover{
+    color: ;
+    border: ;
+    border-radius: ;
+    padding: ;
+}
+
+figure{
+    text-align: center;
+}
+
+h2{
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+    text-align: justify;
+}
+
+table{
+    width: 85%;
+    margin: 20px auto;
+    background-color: rgba(83, 83, 189, 0.755);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: lighter;
+}
+
+th, td{
+    border-bottom: 3px solid #333;
+    padding: 8px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+figcaption{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+audio{
+    background-color: azure;
+    border-radius: 30px;
+}
+
+
+#enciclopedias{
+    width: 90%;
+}
+
+footer{
+    padding: 20px 15%;
+    background-color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+.texto-fotos{
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    
+}  
+.fotos{
+    text-align: right;
+    width: 40%;
+}
+.estudiantes{
+    height: 100px;
+    max-width: 100%;  
+}
+
+.enlaces-recursos{
+    text-align: right;
+}
+
+.enlaces-recursos > a > img{
+    width: 100px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
